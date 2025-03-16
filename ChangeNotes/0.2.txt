@@ -1,0 +1,10 @@
+Added Resistance totems.
+- Echo Totem.
+- Overgrown Totem.
+- Rage Totem.
+- Sentient Totem.
+- Slimed Totem.
+
+Added mod call to add temporary vulnerabilities to players.
+
+Player vulnerabilities reset every update.

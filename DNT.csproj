@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+
+	<!-- General -->
+	<PropertyGroup>
+		
+	</PropertyGroup>
+	<ItemGroup>
+	  <AdditionalFiles Remove="ChangeNotes\0.2.txt" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="EnchantmentTotems\EctoTotem.png" />
+	  <None Remove="EnchantmentTotems\OvergrownTotem.png" />
+	  <None Remove="Localization\en-US_Mods.DNT.hjson" />
+	  <None Remove="EnchantmentTotems\SlimedTotem.png" />
+	</ItemGroup>
+
+	<!-- References -->
+
+</Project>

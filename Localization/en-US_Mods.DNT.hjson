@@ -1,0 +1,45 @@
+TotemTooltip: Only one resistance totem can equipped at a time
+
+Items: {
+	EctoTotem: {
+		DisplayName: Echo Totem
+		Tooltip:
+			'''
+			Grants resistance to Acid, Cold, Fire, Lightning, Poison, Necrotic, and Thunder damage
+			{$TotemTooltip}
+			'''
+	}
+
+	RageTotem: {
+		DisplayName: Rage Totem
+		Tooltip:
+			'''
+			Grants resistance to Bludgeoning, Piercing, and Slashing damage
+			Increases melee damage and damage taken by 8%
+			{$TotemTooltip}
+			'''
+	}
+
+	SlimedTotem: {
+		DisplayName: Slimed Totem
+		Tooltip:
+			'''
+			Grants resistance to Acid damage
+			{$TotemTooltip}
+			'''
+	}
+
+	OvergrownTotem: {
+		DisplayName: Overgrown Totem
+		Tooltip:
+			'''
+			Grants resistance to Cold, Fire, and Lightning damage
+			{$TotemTooltip}
+			'''
+	}
+
+	SentientTotem: {
+		DisplayName: Sentient Totem
+		Tooltip: ""
+	}
+}
