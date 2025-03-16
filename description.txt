@@ -1,0 +1,7 @@
+Dungeons and Terrarians adds the 13 damage types from Dungeons and Dragons into Terraria.
+The bestiary will show contact damage, resistances, vulnerabilities, and immunities for each NPC.
+
+A future update will add items to enhance damage types, and even add damage resistances to certain armors.
+
+The mod has calls to add support for your own mods.
+There will not be any intergrated mod support into this mod.
