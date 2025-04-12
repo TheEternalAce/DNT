@@ -215,6 +215,9 @@ namespace DNT
             if (args[1] is NPC npc)
             {
                 var dntNPC = npc.GetGlobalNPC<DNTNPCs>();
+                Element elements;
+                if (args[2] is int[] elementIDs) elements = AddToList(elementIDs);
+                else throw new ArgumentException("(args[2]) Invalid int array. Enter an int array with values between 0 and 12 (inclusive).");
 
                 if (type == 1) dntNPC.resistances |= elements;
                 else if (type == 2) dntNPC.immunities |= elements;

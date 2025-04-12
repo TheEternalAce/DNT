@@ -1,5 +1,4 @@
-﻿using DNT.EnchantmentTotems;
-using Microsoft.Xna.Framework.Input;
+﻿using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 using Terraria;
 using Terraria.GameContent.ItemDropRules;
